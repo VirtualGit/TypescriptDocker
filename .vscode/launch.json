@@ -15,7 +15,8 @@
             "preLaunchTask": "tsc-build",
             "outFiles": [
                 "${workspaceFolder}/app/dist/**/*.js"
-            ]
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
