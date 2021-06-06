@@ -1,0 +1,9 @@
+version: '2'
+services:
+  template:
+    image: node
+    container_name: template
+    working_dir: /app
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - '/home/sos/local/template-typescript-docker/app:/app'
